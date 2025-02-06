@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+}
+
+.profile h1 {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.profile p {
+    color: #777;
+    font-size: 18px;
+}
+
+.biodata {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.biodata h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.biodata ul {
+    list-style: none;
+    padding: 0;
+}
+
+.biodata ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
